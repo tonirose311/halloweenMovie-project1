@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" />
+
+</head>
+<body>
+  <!-- Navbar starts here -->
+ 
+  <nav class= "nav-wraper black">
+    <div class="container">
+        <a href="#" class="brand-logo orange-text">Site Title</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons orange-text">menu</i>
+        </a>
+        <!-- when we get to smaller screens the options wont show -->
+    <ul class="right hide-on-med-and-down">
+        <li><a href ="index.html" class= "orange-text">Main</a></li>
+        <li><a href ="calendar.html" class= "orange-text">Calendar</a></li>
+        <li><a href ="response.html" class= "orange-text">Response</a></li>
+    </ul>
+    </div>
+
+
+  </nav>
+  <ul class="sidenav orange-text" id="mobile-links">
+    <li><a href ="index.html"class= "orange-text">Main</a></li>
+        <li><a href ="calendar.html"class= "orange-text">Calendar</a></li>
+        <li><a href ="response.html"class= "orange-text">Response</a></li>  
+  </ul>
+  
+  
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+ <script>
+    //  for the side nav to work when pressend on different menu options
+     $(document).ready(function(){
+         $(".sidenav").sidenav()
+
+     })
+ </script>
+</body>
+</html>
