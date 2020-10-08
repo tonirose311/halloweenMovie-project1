@@ -71,3 +71,29 @@ body {font-family: Verdana, sans-serif;}
   background: #1abc9c;
   color: white !important
 }
+
+/* background color for calendar page */
+
+body{
+    background-color: #270227;
+}
+
+.month {
+    padding: 20px 25px;
+    width: 100%;
+    background: #270227;
+    text-align: center;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #561979;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #c55910;
+    text-align: center;
+}
