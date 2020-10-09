@@ -31,7 +31,7 @@ Halloween calendar which suggests a movie to watch every day for the month of Oc
 ![Example screenshot](Screen%20Shot-Home.png)
 ![Example screenshot](Screen%20Shot-Calendar.png)
 ![Example screenshot](Screen%20Shot-Review.png)
-![Example screenshot](Screen%20Shot-NYTIMES Movie.png)
+![Example screenshot](Screen%20Shot-NYTIMES%20Movie.png)
 ![Example screenshot](Screen%20Shot-pick-movie-for-review.png)
 
 
