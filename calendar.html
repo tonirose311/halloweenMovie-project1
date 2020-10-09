@@ -4,118 +4,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>31 Days of Fright</title>
   <style>
-    ul {
-      list-style-type: none;
-    }
-
-    body {
-      font-family: Verdana, sans-serif;
-    }
-
-    /* Month header */
-    .month {
-      padding: 70px 25px;
-      width: 100%;
-      background: #1abc9c;
-      text-align: center;
-    }
-
-    /* Month list */
-    .month ul {
-      margin: 0;
-      padding: 0;
-    }
-
-    .month ul li {
-      color: white;
-      font-size: 20px;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-    }
-
-    /* Previous button inside month header */
-    .month .prev {
-      float: left;
-      padding-top: 10px;
-    }
-
-    /* Next button */
-    .month .next {
-      float: right;
-      padding-top: 10px;
-    }
-
-    /* Weekdays (Mon-Sun) */
-    .weekdays {
-      margin: 0;
-      padding: 10px 0;
-      background-color: #ddd;
-    }
-
-    .weekdays li {
-      display: inline-block;
-      width: 13.6%;
-      color: #666;
-      text-align: center;
-    }
-
-    /* Days (1-31) */
-    .days {
-      padding: 10px 0;
-      background: #eee;
-      margin: 0;
-    }
-
-    .days li {
-      list-style-type: none;
-      display: inline-block;
-      width: 13.6%;
-      text-align: center;
-      margin-bottom: 5px;
-      font-size: 12px;
-      color: #777;
-    }
-
-    /* Highlight the "current" day */
-    .days li .active {
-      padding: 5px;
-      background: #1abc9c;
-      color: white !important
-    }
+  
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frijole&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <!-- navbar -->
   <nav class="nav-wraper black" class="">
     <div class="container">
-      <a href="#" class="brand-logo orange-text">Site Title</a>
+      <a href="#" class="brand-logo purple-text">31 Days of Fright</a>
       <a href="#" class="sidenav-trigger" data-target="mobile-links">
-        <i class="material-icons orange-text">menu</i>
+        <i class="material-icons purple-text">menu</i>
       </a>
       <!-- when we get to smaller screens the options wont show -->
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.html" class="orange-text">Main</a></li>
-        <li><a href="calendar.html" class="orange-text">Calendar</a></li>
-        <li><a href="response.html" class="orange-text">Response</a></li>
+        <li><a href="index.html" class="purple-text">Home</a></li>
+        <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+        <li><a href="reviews.html" class="purple-text">Reviews</a></li>
       </ul>
     </div>
 
 
   </nav>
-  <ul class="sidenav orange-text" id="mobile-links">
-    <li><a href="index.html" class="orange-text">Main</a></li>
-    <li><a href="calendar.html" class="orange-text">Calendar</a></li>
-    <li><a href="response.html" class="orange-text">Response</a></li>
+  <ul class="sidenav purple-text" id="mobile-links">
+    <li><a href="index.html" class="purple-text">Home</a></li>
+    <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+    <li><a href="reviews.html" class="purple-text">Reviews</a></li>
   </ul>
   <!-- navbar -->
 
   <!-- Modal Structure -->
+  <div class="calendar">
   <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Modal Header</h4>
@@ -127,7 +52,7 @@
     </div>
   </div>
 
-  <div class="month orange">
+  <div class="month">
     <ul>
       <li class="prev">&#10094;</li>
       <li class="next">&#10095;</li>
@@ -186,7 +111,7 @@
     <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">30</a></li>
     <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">31</a></li>
   </ul>
-
+</div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -195,26 +120,26 @@
       $(".sidenav").sidenav()
 
 // halloweenMovies is an array of objects which include a movie title and corresponding id from Movie DB
-      var halloweenMovies = [
+var halloweenMovies = [
             {
                 title: "Black Box",
                 id: 716258
             },
             {
                 title: "Possessor",
-                id: 550
+                id: 435615
             },
             {
-                title: "Insidious",
-                id: 49018
+                title: "Prevenge",
+                id: 395982
             },
             {
                 title: "Alive",
-                id: 709621
+                id: 492414
             },
             {
-                title: "Relic",
-                id: 539181
+                title: "Velvet Buzzsaw",
+                id: 463684
             },
             {
                 title: "The Invisible Man",
@@ -229,16 +154,16 @@
                 id: 475220
             },
             {
-                title: "Us",
-                id: 458723
+                title: "Await Further Instructions",
+                id: 505063
             },
             {
                 title: "Bird Box",
                 id: 405774
             },
             {
-                title: "Halloween (1978)",
-                id: 948
+                title: "Train to Busan",
+                id: 396535
             },
             {
                 title: "A Quiet Place",
@@ -257,16 +182,16 @@
                 id: 41446
             },
             {
-                title: "Annabelle",
-                id: 521029
+                title: "10 Cloverfield Lane",
+                id: 333371
             },
             {
                 title: "The Shining",
                 id: 694
             },
             {
-                title: "Psycho",
-                id: 539
+                title: "It Follows",
+                id: 270303
             },
             {
                 title: "Doctor Sleep",
@@ -277,7 +202,7 @@
                 id: 465086
             },
             {
-                title: "The Addams Family (2019)",
+                title: "The Addams Family",
                 id: 481084
             },
             {
@@ -301,8 +226,8 @@
                 id: 16871
             },
             {
-                title: "Orphan",
-                id: 21208
+                title: "The Babadook",
+                id: 242224
             },
             {
                 title: "It Chapter Two",
@@ -320,8 +245,7 @@
                 title: "The Nun",
                 id: 439079
             },
-
-        ];
+]
       
       // get called when day is clicked
       function displayModal(event) {
