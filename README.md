@@ -50,10 +50,10 @@ To get this project up and running follow the steps bellow.
 
 
 ## Features
-1. Eeach day in October
+1. Each day in October
 2. After a user clicks on a day they are presented with a movie poster & short summary
-3. If user is interested in movie then they will go to the next page called review
-4. They will click on a movie from the drop down to see a NY Times review
+3. If user is interested in the movie then they will go to the next page thats called review
+4. They will click on the movie that they are interested in from the drop down to see a NY Times review
 
 ## Status
 Project is: _in progress_ because we are still learning.
