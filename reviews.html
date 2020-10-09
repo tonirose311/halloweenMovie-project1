@@ -3,40 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>31 Days of Fright</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
  <!-- navbar -->
  <nav class="nav-wraper black" class="">
     <div class="container">
-      <a href="#" class="brand-logo orange-text">Site Title</a>
-      <a href="#" class="sidenav-trigger" data-target="mobile-links">
-        <i class="material-icons orange-text">menu</i>
-      </a>
-      <!-- when we get to smaller screens the options wont show -->
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html" class="orange-text">Main</a></li>
-        <li><a href="calendar.html" class="orange-text">Calendar</a></li>
-        <li><a href="response.html" class="orange-text">Response</a></li>
-      </ul>
-    </div>
+        <a href="#" class="brand-logo purple-text">31 Days of Fright</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons purple-text">menu</i>
+        </a>
+        <!-- when we get to smaller screens the options wont show -->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html" class="purple-text">Home</a></li>
+          <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+          <li><a href="reviews.html" class="purple-text">Reviews</a></li>
+        </ul>
+      </div>
 
 
   </nav>
-  <ul class="sidenav orange-text" id="mobile-links">
-    <li><a href="index.html" class="orange-text">Main</a></li>
-    <li><a href="calendar.html" class="orange-text">Calendar</a></li>
-    <li><a href="response.html" class="orange-text">Response</a></li>
+  <ul class="sidenav purple-text" id="mobile-links">
+    <li><a href="index.html" class="purple-text">Main</a></li>
+    <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+    <li><a href="reviews.html" class="purple-text">Response</a></li>
   </ul>
   <!-- navbar -->
-<div class="container">
-    <h1 class="text-center">Halloween Movie Reviews</h1>
-    Pick Your NYT Review
-    <select name="nytMovies" id="movieOptions"></select>
+
+<div class="container review">
+    <h1 class="text-align-center">Movie Reviews</h1>
+    <h5>Pick Your NYT Review:</h5>
+    <select name="nytMovies purple-text" id="movieOptions" class="select-dropdown"></select>
     <div id="article-view"></div>
 </div>
 
@@ -63,8 +65,8 @@ var halloweenMovies = [
                 id: 492414
             },
             {
-                title: "Relic",
-                id: 539181
+                title: "Velvet Buzzsaw",
+                id: 463684
             },
             {
                 title: "The Invisible Man",
@@ -79,16 +81,16 @@ var halloweenMovies = [
                 id: 475220
             },
             {
-                title: "Us",
-                id: 458723
+                title: "Await Further Instructions",
+                id: 505063
             },
             {
                 title: "Bird Box",
                 id: 405774
             },
             {
-                title: "Halloween",
-                id: 948
+                title: "Train to Busan",
+                id: 396535
             },
             {
                 title: "A Quiet Place",
@@ -107,16 +109,16 @@ var halloweenMovies = [
                 id: 41446
             },
             {
-                title: "Signs",
-                id: 2675
+                title: "10 Cloverfield Lane",
+                id: 333371
             },
             {
                 title: "The Shining",
                 id: 694
             },
             {
-                title: "Psycho",
-                id: 539
+                title: "It Follows",
+                id: 270303
             },
             {
                 title: "Doctor Sleep",
@@ -127,7 +129,7 @@ var halloweenMovies = [
                 id: 465086
             },
             {
-                title: "The Addams Family (2019)",
+                title: "The Addams Family",
                 id: 481084
             },
             {
@@ -151,8 +153,8 @@ var halloweenMovies = [
                 id: 16871
             },
             {
-                title: "Orphan",
-                id: 21208
+                title: "The Babadook",
+                id: 242224
             },
             {
                 title: "It Chapter Two",
@@ -173,6 +175,7 @@ var halloweenMovies = [
 ]
 
 $(document).ready(function () {
+    $(".sidenav").sidenav()
        
         for (var i =0; i< halloweenMovies.length; i++) {
             $("#movieOptions").append(
