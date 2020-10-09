@@ -6,88 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    ul {
-      list-style-type: none;
-    }
-
-    body {
-      font-family: Verdana, sans-serif;
-    }
-
-    /* Month header */
-    .month {
-      padding: 70px 25px;
-      width: 100%;
-      background: #1abc9c;
-      text-align: center;
-    }
-
-    /* Month list */
-    .month ul {
-      margin: 0;
-      padding: 0;
-    }
-
-    .month ul li {
-      color: white;
-      font-size: 20px;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-    }
-
-    /* Previous button inside month header */
-    .month .prev {
-      float: left;
-      padding-top: 10px;
-    }
-
-    /* Next button */
-    .month .next {
-      float: right;
-      padding-top: 10px;
-    }
-
-    /* Weekdays (Mon-Sun) */
-    .weekdays {
-      margin: 0;
-      padding: 10px 0;
-      background-color: #ddd;
-    }
-
-    .weekdays li {
-      display: inline-block;
-      width: 13.6%;
-      color: #666;
-      text-align: center;
-    }
-
-    /* Days (1-31) */
-    .days {
-      padding: 10px 0;
-      background: #eee;
-      margin: 0;
-    }
-
-    .days li {
-      list-style-type: none;
-      display: inline-block;
-      width: 13.6%;
-      text-align: center;
-      margin-bottom: 5px;
-      font-size: 12px;
-      color: #777;
-    }
-
-    /* Highlight the "current" day */
-    .days li .active {
-      padding: 5px;
-      background: #1abc9c;
-      color: white !important
-    }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+  <link href=“https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frijole&display=swap” rel=“stylesheet”>
+  <link rel="stylesheet" href="calendar.css">
 </head>
 
 <body>
@@ -116,6 +39,7 @@
   <!-- navbar -->
 
   <!-- Modal Structure -->
+  <div class="container">
   <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Modal Header</h4>
@@ -127,7 +51,7 @@
     </div>
   </div>
 
-  <div class="month orange">
+  <div class="month transparent">
     <ul>
       <li class="prev">&#10094;</li>
       <li class="next">&#10095;</li>
@@ -186,7 +110,7 @@
     <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">30</a></li>
     <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">31</a></li>
   </ul>
-
+</div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

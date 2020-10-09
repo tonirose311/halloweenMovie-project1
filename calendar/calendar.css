@@ -1,5 +1,4 @@
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
 
 /* Month header */
 .month {
@@ -75,20 +74,22 @@ body {font-family: Verdana, sans-serif;}
 /* background color for calendar page */
 
 body{
-    background-color: #270227;
+  /* background-image: url("https://ak.picdn.net/shutterstock/videos/1018518118/thumb/1.jpg"); */
+  background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/halloween-background-with-ball-moon-photography-backdrop_1024x1024.jpg?v=1588639519");
+  /* background-image: url("https://cdn.gamedevmarket.net/wp-content/uploads/20191203150211/6ea497b6e0816d0a058c34eeae8c1b78-1400x788.jpg"); */
 }
 
 .month {
     padding: 20px 25px;
     width: 100%;
-    background: #270227;
     text-align: center;
 }
 
 .weekdays {
     margin: 0;
     padding: 10px 0;
-    background-color: #561979;
+    background-color: #2b0242e5;
+    border-radius: .5rem;
 }
 
 .weekdays li {
@@ -97,3 +98,20 @@ body{
     color: #c55910;
     text-align: center;
 }
+
+.days{
+  background-color: #5928869d;
+  border-radius: .5rem;
+}
+
+/* @media screen and (min-width: 722px) {
+  .weekdays {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .weekdays {
+    font-size: 8px;
+  }
+} */
