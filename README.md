@@ -27,11 +27,7 @@ Halloween calendar which suggests a movie to watch every day for the month of Oc
 
 
 ## Screenshots
-![Example screenshot]()
-![Example screenshot]()
-![Example screenshot]()
-![Example screenshot]()
-![Example screenshot]()
+
 
 
 ## Setup
