@@ -1,5 +1,4 @@
 # halloweenMovie-project1
-# 
 
 > A Halloween Calendar representing 31 days in October with a different movie recommendation for each day.
 
@@ -28,11 +27,7 @@ Halloween calendar which suggests a movie to watch every day for the month of Oc
 
 
 ## Screenshots
-![Example screenshot](Screen%20Shot-Home.png)
-![Example screenshot](Screen%20Shot-Calendar.png)
-![Example screenshot](Screen%20Shot-Review.png)
-![Example screenshot](Screen%20Shot-NYTIMES%20Movie.png)
-![Example screenshot](Screen%20Shot-pick-movie-for-review.png)
+
 
 
 ## Setup
