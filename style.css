@@ -19,7 +19,6 @@ body{
     font-family: 'Frijole', cursive;
     background-color: rgb(233, 114, 2);
     border-radius: 20px;
-
 }
 
 .container h1, .container h5, .container a{
@@ -38,9 +37,6 @@ body{
     border-style: double;
     max-width: 400px;
 }
-/* .review{
-    background-color:rgb(109, 11, 165);
-} */
 
 .enter-btn{
     background-color: black;
@@ -53,6 +49,10 @@ ul {
     font-family: Verdana, sans-serif;
   }
 
+.days li a:hover{
+    background-color: rgb(255, 123, 0) ;
+}
+
 .select-dropdown{
 color: black;
 font-family: 'Frijole', cursive;
@@ -63,9 +63,6 @@ ul.dropdown-content.select-dropdown li span {
     text-align: center;
 }
 
-/* #article-view{
-    color: white;
-} */
 
 a{
     color: white;
@@ -141,21 +138,49 @@ a{
     color: #777;
   }
 
-  /* Highlight the "current" day */
+  
   .days li .active {
     padding: 5px;
     background: rgb(255, 123, 0);
     color: white !important
   }
 
+
+  .containerClear{
+    text-align: center;
+    justify-content: center;
+}
+.containerClear button{
+ background-color: #000;
+}
+.containerClear button:hover{
+  background-color: rgb(255, 123, 0) ;
+ }
+
+
+
   @media screen and (min-width: 740px) {
     .weekdays{
       font-size: 20px;
     }
+
+  .month {
+    font-size: 10px;
+  }
   }
   
   @media screen and (max-width: 741px) {
      .weekdays {
       font-size: 10px;
     }
-}
+    .brand-logo {
+     height: 30px;
+      line-height: 30px; 
+  }
+  .month ul li {
+    font-size: 20px;
+  }
+  nav .brand-logo {
+    font-size: 1.5rem;
+
+  }
