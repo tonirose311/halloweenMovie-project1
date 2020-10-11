@@ -1,4 +1,5 @@
 # halloweenMovie-project1
+# 31 Days of Fright
 
 > A Halloween Calendar representing 31 days in October with a different movie recommendation for each day.
 
@@ -27,7 +28,10 @@ Halloween calendar which suggests a movie to watch every day for the month of Oc
 
 
 ## Screenshots
-
+![Example screenshot](/Images/Screen-Home.png)
+![Example screenshot](/Images/Screen-Calendar.png)
+![Example screenshot](/Images/Screen-NYTIMES-Movie.png)
+![Example screenshot](/Images/Screen-pick-movie-for-review.png)
 
 
 ## Setup
@@ -40,15 +44,15 @@ To get this project up and running follow the steps bellow.
 4. Open Terminal
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type ‘git clone’ and then paste the URL you copied
-	- $ git clone https://github.com/tonirose311/halloweenMovie-project1.git
+    - $ git clone https://github.com/tonirose311/halloweenMovie-project1.git
 7. Press Enter. Your local clone will be created.
 
 
 ## Features
-1. Each day in October
+1. Eeach day in October
 2. After a user clicks on a day they are presented with a movie poster & short summary
-3. If user is interested in the movie then they will go to the next page thats called review
-4. They will click on the movie that they are interested in from the drop down to see a NY Times review
+3. If user is interested then they will go to the next page
+4. They will click on a movie to see a NY Times review
 
 ## Status
 Project is: _in progress_ because we are still learning.
