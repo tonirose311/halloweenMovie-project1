@@ -125,6 +125,8 @@ var halloweenMovies = [
     },
 ]
 
+
+
 $(document).ready(function () {
 $(".sidenav").sidenav()
 
@@ -145,7 +147,7 @@ url: nytURL,
 method: "GET"
 }).then(function(response) {
 var link = $("<a>");
-var newDiv = $("<div>")
+newDiv = $("<div>")
 var articleReview = response.results[0].link.url
 var filmName = response.results[0].display_title;
 
@@ -155,16 +157,24 @@ link.attr("href", articleReview)
     newDiv.append(link)
 
 
+localStorage.setItem("link", link.text());
+
+
+
+});
+
+var empty = $("#article-view").empty();
+$("#movieOptions").on("change", empty);
+
+
+
 
 
 });
 
-// var empty = $("#article-view").empty();
-// $("#movieOptions").on("change", empty)
-  
 
 
-});
+
 
 $('select').formSelect();
 
