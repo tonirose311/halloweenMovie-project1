@@ -1,4 +1,5 @@
 # halloweenMovie-project1
+# 31 Days of Fright
 
 
 > A Halloween Calendar representing 31 days in October with a different movie recommendation for each day.
@@ -28,10 +29,16 @@ Halloween calendar which suggests a movie to watch every day for the month of Oc
 
 
 ## Screenshots
+10.11/Images
+![Example screenshot](/Images/Screen-Home.png)
+![Example screenshot](/Images/Screen-Calendar.png)
+![Example screenshot](/Images/Screen-NYTIMES-Movie.png)
+![Example screenshot](/Images/Screen-pick-movie-link.png)
 ![Example screenshot](Screen-Home.png)
 ![Example screenshot](Screen-Calendar.png)
 ![Example screenshot](Screen-NYTIMES-Movie.png)
 ![Example screenshot](Screen-pick-movie-for-review.png)
+
 
 
 ## Setup
