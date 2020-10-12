@@ -157,7 +157,8 @@ link.attr("href", articleReview)
     newDiv.append(link)
 
 
-localStorage.setItem("link", link.text());
+localStorage.setItem("link", link);
+localStorage.getItem("link");
 
 
 
