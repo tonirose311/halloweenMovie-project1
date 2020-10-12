@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31 Days of Fright</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- navbar -->
+ <nav class="nav-wraper black" class="">
+    <div class="container">
+        <a href="#" id="title" class="brand-logo purple-text">31 Days of Fright</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons purple-text">menu</i>
+        </a>
+        <!-- when we get to smaller screens the options wont show -->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html" class="purple-text">Home</a></li>
+          <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+          <li><a href="reviews.html" class="purple-text">Reviews</a></li>
+        </ul>
+      </div>
+
+
+  </nav>
+  <ul class="sidenav purple-text" id="mobile-links">
+    <li><a href="index.html" class="purple-text">Main</a></li>
+    <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+    <li><a href="reviews.html" class="purple-text">Reviews</a></li>
+  </ul>
+  <!-- navbar -->
+
+<div class="container review">
+    <h1 class="text-align-center">Movie Reviews</h1>
+    <h5>Pick Your New York Times Review:</h5>
+    <select name="nytMovies purple-text" id="movieOptions" class="select-dropdown"></select>
+    <div id="article-view"></div>
+</div>
+
+<div class="containerClear">
+    <button id="remove" class="waves-effect waves-light btn">Clear Search History</button>
+</div>
+
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="reviews.js"></script>
+    <script>
+
+</script>
+
+  
+</body>
+</html>

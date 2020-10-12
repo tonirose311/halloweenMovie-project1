@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>31 Days of Fright</title>
+  <style>
+  
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frijole&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="nav-wraper black" class="">
+    <div class="container">
+      <a href="#" id="name" class="brand-logo purple-text">31 Days of Fright</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons purple-text">menu</i>
+      </a>
+      <!-- when we get to smaller screens the options wont show -->
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="purple-text">Home</a></li>
+        <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+        <li><a href="reviews.html" class="purple-text">Reviews</a></li>
+      </ul>
+    </div>
+
+
+  </nav>
+  <ul class="sidenav purple-text" id="mobile-links">
+    <li><a href="index.html" class="purple-text">Home</a></li>
+    <li><a href="calendar.html" class="purple-text">Calendar</a></li>
+    <li><a href="reviews.html" class="purple-text">Reviews</a></li>
+  </ul>
+  <!-- navbar -->
+
+  <!-- Modal Structure -->
+  <div class="calendar">
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+      <img id="poster"/>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat bold-text">X</a>
+    </div>
+  </div>
+
+  <div class="month">
+    <ul>
+      <!-- <li class="prev">&#10094;</li>
+      <li class="next">&#10095;</li> -->
+      <li>October<br><span>2020</span></li>
+    </ul>
+  </div>
+
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+
+  <ul class="days">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">01</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">02</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">03</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">04</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">05</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">06</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">07</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">08</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">09</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">10</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">11</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">12</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">13</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">14</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">15</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">16</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">17</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">18</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">19</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">20</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">21</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">22</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">23</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">24</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">25</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">26</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">27</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">28</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">29</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">30</a></li>
+    <li><a data-target="modal1" class="waves-effect waves-light btn modal-trigger">31</a></li>
+  </ul>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="calendar.js"></script>
+
+</body>
+
+</html>
